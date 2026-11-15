@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Prakshit Gangwar — Video Editor, Graphic Designer & YouTube Manager</title>
+<meta name="description" content="Portfolio of Prakshit Gangwar: video editing, graphic design and YouTube management.">
+<meta name="theme-color" content="#050507">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Prakshit Gangwar — Creative Portfolio">
+<meta property="og:description" content="Video editing, graphic design and YouTube management.">
+<meta property="og:url" content="https://prakshit.in/">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%238b5cf6'/%3E%3Ctext x='16' y='22' font-size='18' text-anchor='middle' fill='white' font-family='sans-serif'%3EP%3C/text%3E%3C/svg%3E">
+<style>:root{--bg:#050507;--surface:#101016;--text:#f6f5fa;--muted:#b0aec0;--accent:#8b5cf6;--accent-soft:#c4b5fd;--border:#25243a;--radius:14px;--section:96px;--shadow:none;--dur:.5s;--font-h:system-ui,sans-serif;--font-b:system-ui,sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:72px}
+body{margin:0;background:var(--bg);color:var(--text);font:400 1rem/1.65 var(--font-b);-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:var(--font-h);line-height:1.1;margin:0}
+h1{font-size:clamp(2.6rem,9vw,6rem);font-weight:800;letter-spacing:-.03em;max-width:12ch}
+h2{font-size:clamp(1.7rem,4vw,2.6rem);margin-bottom:28px;letter-spacing:-.02em}
+h3{font-size:1.15rem;margin:0 0 4px}
+a{color:var(--accent-soft)}.muted{color:var(--muted);max-width:60ch}.lead{font-size:1.2rem;max-width:44ch}
+.skip{position:absolute;left:-999px}.skip:focus{left:12px;top:12px;background:#fff;color:#000;padding:8px;z-index:99}
+:focus-visible{outline:3px solid var(--accent-soft);outline-offset:3px}
+.nav{position:sticky;top:0;z-index:20;display:flex;justify-content:space-between;align-items:center;padding:14px 5vw;background:rgba(5,5,7,.88);backdrop-filter:blur(10px);border-bottom:1px solid var(--border)}
+.logo{font:700 1.1rem var(--font-h);color:var(--text);text-decoration:none}
+nav{display:flex;gap:22px}nav a{color:var(--muted);text-decoration:none;font-size:.95rem}nav a:hover{color:var(--text)}
+.menu-btn{display:none;background:none;border:1px solid var(--border);color:var(--text);padding:8px 14px;border-radius:99px;font:inherit}
+section,.hero{padding:var(--section) 5vw 0;max-width:1200px;margin:0 auto}
+.hero{padding-top:clamp(56px,10vw,120px)}
+.hero h1{margin-bottom:22px;background:linear-gradient(120deg,#fff 40%,var(--accent-soft));-webkit-background-clip:text;background-clip:text;color:transparent}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin:28px 0}
+.btn{display:inline-block;padding:12px 22px;border-radius:99px;border:1px solid var(--border);background:transparent;color:var(--text);text-decoration:none;font:600 .95rem var(--font-b);cursor:pointer;transition:transform .2s,background .2s}
+.btn:hover{transform:translateY(-2px);border-color:var(--accent)}.btn.primary{background:var(--accent);border-color:var(--accent);color:#fff}
+.btn.sm{padding:8px 16px;font-size:.85rem}
+.stats{list-style:none;display:flex;flex-wrap:wrap;gap:14px;padding:0;margin:40px 0 0}
+.stats li{border:1px solid var(--border);border-radius:var(--radius);padding:14px 20px;background:var(--surface)}
+.stats b{display:block;font:700 1.5rem var(--font-h);color:var(--accent-soft)}.stats span{font-size:.9rem;color:var(--muted)}
+.cat{margin-bottom:56px}.cat h3{font-size:1.5rem}.cat>p{margin:0 0 20px;color:var(--muted)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,340px),1fr));gap:22px}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow)}
+.card .info{padding:14px 16px 16px}.card p{margin:4px 0 0;font-size:.9rem;color:var(--muted)}
+.card .row{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
+.frame{position:relative;aspect-ratio:16/9;background:linear-gradient(135deg,#1a1230,#0b0b12)}
+.frame.doc{aspect-ratio:4/3}.frame.big{aspect-ratio:4/3;max-height:80vh}
+.frame iframe,.frame .poster{position:absolute;inset:0;width:100%;height:100%;border:0}
+.poster{display:grid;place-items:center;background:none;padding:0;cursor:pointer;border:0;color:#fff}
+.poster img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.play{position:relative;width:68px;height:68px;border-radius:50%;background:var(--accent);display:grid;place-items:center;font-size:1.6rem;transition:transform .2s}
+.poster:hover .play{transform:scale(1.1)}
+.spin{position:absolute;inset:0;display:grid;place-items:center;color:var(--muted);font-size:.9rem;z-index:0}
+.frame iframe{z-index:1;background:transparent}
+.note{font-size:.82rem;color:var(--muted);margin-top:10px}
+.empty{border:1px dashed var(--border);border-radius:var(--radius);padding:24px;color:var(--muted)}
+footer{padding:80px 5vw 40px;text-align:center;color:var(--muted);font-size:.9rem}
+dialog{width:min(1100px,94vw);height:90vh;background:var(--surface);color:var(--text);border:1px solid var(--border);border-radius:var(--radius);padding:12px}
+dialog::backdrop{background:rgba(0,0,0,.8)}.viewer-frame{height:calc(100% - 52px);margin-top:10px}.viewer-frame iframe{width:100%;height:100%;border:0;border-radius:8px;background:#fff}
+.anim .hero h1{animation:rise var(--dur) ease both}@keyframes rise{from{opacity:0;transform:translateY(24px)}}
+@media(max-width:780px){.menu-btn{display:block}nav{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;background:var(--bg);padding:16px 5vw;border-bottom:1px solid var(--border)}nav.open{display:flex}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="nav">
+  <a class="logo" href="#top" id="logo"></a>
+  <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="links">Menu</button>
+  <nav id="links" aria-label="Main">
+    <a href="#work">Video</a><a href="#graphic">Graphic Design</a><a href="#assignment">Assignment</a>
+    <a href="#certificates">Certificates</a><a href="#about">About</a><a href="#contact">Contact</a>
+  </nav>
+</header>
+<main id="main">
+  <section class="hero" id="top">
+    <h1 id="heroTitle"></h1>
+    <p class="lead" id="heroTag"></p>
+    <p class="muted" id="heroIntro"></p>
+    <div class="cta"><a class="btn primary" href="#work" id="cta1"></a><a class="btn" href="#contact" id="cta2"></a></div>
+    <ul class="stats" id="stats"></ul>
+  </section>
+  <section id="work"><h2>Video editing</h2><div id="videos"></div></section>
+  <section id="graphic"><h2>Graphic design</h2><div id="graphicBox"></div></section>
+  <section id="assignment"><h2>Creative assignment</h2><div id="assignmentBox"></div></section>
+  <section id="certificates"><h2>Certificates &amp; qualifications</h2><div class="grid" id="certs"></div></section>
+  <section id="about"><h2>About</h2><p class="lead" id="aboutText"></p><div id="cvBox"></div></section>
+  <!-- FUTURE: add an "Ideas & Experiments" <section> here and a data/ideas.js file. -->
+  <section id="contact"><h2>Let’s work together</h2><div class="cta" id="contactBtns"></div><p class="muted" id="contactNote"></p></section>
+</main>
+<footer><p id="foot"></p></footer>
+<dialog id="viewer"><button class="btn close" id="closeViewer">Close</button><div class="viewer-frame"><iframe id="viewerFrame" title="Large preview" allow="fullscreen"></iframe></div></dialog>
+<script>// DESIGN SETTINGS — change colours, fonts, spacing here. Save, refresh, done.
+window.THEME = {
+  colors: {
+    bg: "#050507",        // page background
+    surface: "#101016",   // cards
+    text: "#f6f5fa",      // main text
+    muted: "#b0aec0",     // secondary text
+    accent: "#8b5cf6",    // purple accent
+    accentSoft: "#c4b5fd",// light purple
+    border: "#25243a"
+  },
+  fonts: {
+    heading: "'Bricolage Grotesque', system-ui, sans-serif",
+    body: "'Inter', system-ui, sans-serif",
+    googleFontsUrl: "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Inter:wght@400;500;600&display=swap"
+  },
+  radius: "14px",
+  sectionSpacing: "clamp(64px, 10vw, 112px)",
+  cardShadow: "0 12px 40px rgba(139,92,246,.14)",
+  animation: { enabled: true, duration: "0.5s" }
+};
+</script><script>// TEXT, EXPERIENCE, CONTACT AND SOCIAL LINKS — edit freely.
+window.SITE = {
+  brand: "prakshit.in",
+  name: "Prakshit Gangwar",
+  headline: "Hey, I’m Prakshit Gangwar.",
+  tagline: "I turn creative ideas into visuals and digital experiences.",
+  intro: "I enjoy working with good-fit clients, creating engaging content, and exploring new creative projects.",
+  primaryCta: "Explore My Work",
+  secondaryCta: "Let’s Work Together",
+  // ⚠ Experience figures come from the owner. Verify before publishing.
+  experience: [
+    { value: "5+ years", label: "Video editing" },
+    { value: "4+ years", label: "Graphic design" },
+    { value: "2 clients", label: "YouTube management & content creation" }
+  ],
+  aboutText: "Friendly freelancer, creative professional, YouTube manager and independent creator. I value good-fit client relationships and I’m developing my own product ideas and models.",
+  // Leave a value empty ("") to hide that button. Add more entries any time.
+  contact: {
+    email: "",   // e.g. "hello@prakshit.in"
+    links: [
+      { label: "YouTube", url: "" },
+      { label: "Instagram", url: "" },
+      { label: "LinkedIn", url: "" },
+      { label: "WhatsApp", url: "" }
+    ]
+  },
+  seo: {
+    title: "Prakshit Gangwar — Video Editor, Graphic Designer & YouTube Manager",
+    description: "Portfolio of Prakshit Gangwar: video editing, graphic design and YouTube management."
+  }
+};
+</script><script>// VIDEOS — add, remove, reorder or edit. Order in this list = order on the site.
+// category: "ai" | "motion" | "documentary" | "more"
+// Titles are neutral until the owner confirms each video. Change category once confirmed.
+window.VIDEO_CATEGORIES = [
+  { key: "ai", title: "AI Videos", blurb: "Videos made with AI tools." },
+  { key: "motion", title: "Motion Graphics", blurb: "Animated graphics and motion work." },
+  { key: "documentary", title: "Documentary-Style Editing", blurb: "Story-led, documentary-style edits." },
+  { key: "more", title: "More Editing Work", blurb: "More of my editing projects." }
+];
+window.VIDEOS = [
+  { id: "14rs6QN1qP0HGQNKENPas5vkUzwbmutUT", title: "Editing Project 01", category: "more", description: "" },
+  { id: "1myPDHb-Pwb5PDKcrOtE0he9y10h1n78X", title: "Editing Project 02", category: "more", description: "" },
+  { id: "1UxGn4UgwjPYxP0LkUWdl9qKtqiofeNv4", title: "Editing Project 03", category: "more", description: "" },
+  { id: "1Xl-fvdUjKJORwTVYRqiF78mQRY8jfhez", title: "Editing Project 04", category: "more", description: "" },
+  { id: "10BMGtCbvyWFCsoAaEGMGfEtptDH4p_xF", title: "Editing Project 05", category: "more", description: "" },
+  { id: "1GoSt344JGujwZWCdH4KWvRHQGndmFad9", title: "Editing Project 06", category: "more", description: "" },
+  { id: "1NOkt6ocp9WJ4-nMZbnP-fUZuCH-FzbKA", title: "Editing Project 07", category: "more", description: "" }, // listed twice in the brief; shown once
+  { id: "1KThAtuB3gWDjeHVCrQXNFerFV9N2jgUX", title: "Editing Project 08", category: "more", description: "" },
+  { id: "1PpnFH3ZGhj1PmMVgC_JwaO3VS5bfFFFb", title: "Editing Project 09", category: "more", description: "" },
+  { id: "14_lujeFNvCNPa-KviE1DsEo78apNOA2h", title: "Editing Project 10", category: "more", description: "" }
+];
+</script>
+<script>// DOCUMENTS — graphic design portfolio, CV, assignment.
+window.DOCS = {
+  graphic: { id: "1gRKem1pw-_IQJnP_TEOL-0jAG6yHw0Jy", title: "Graphic Design Portfolio", description: "Scroll through my design work below." },
+  assignment: { id: "1U4JlGtuG_18s5589TViKXbZVkLArChQT", title: "Carousel Assignment", description: "A creative assignment (not a paid client project)." },
+  cv: {
+    id: "1G-2lFKB0sM1Ae6oChog8atTOPR7jY3WH",
+    title: "CV",
+    // ⚠ Set to true ONLY after you are happy for your CV to be public.
+    approvedForPublic: false
+  }
+};
+</script><script>// CERTIFICATES — add or remove entries. Issuer/date left out until you supply them.
+window.CERTIFICATES = [
+  { id: "12jQrNGr9MnztFcgawc6EIwbZX7BAkSix", title: "AI Certificate", issuer: "", date: "" },
+  { id: "17K3mB87HkRY8Jq_xkLzHV8NekGYrGFLS", title: "Graphic Design Certificate", issuer: "", date: "" },
+  { id: "1tfT1EmD2YrE43ijqK1EBzVN7ZsZsbvoG", title: "Video Editing Certificate", issuer: "", date: "" },
+  { id: "104km0d7nS_bMD80fAc9LexcsGv7pdUcx", title: "YouTube Management Certificate", issuer: "", date: "" }
+];
+</script><script>(function () {
+  var T = window.THEME, S = window.SITE, $ = function (id) { return document.getElementById(id); };
+  // ---- Theme -> CSS variables
+  var r = document.documentElement.style, c = T.colors;
+  r.setProperty("--bg", c.bg); r.setProperty("--surface", c.surface); r.setProperty("--text", c.text);
+  r.setProperty("--muted", c.muted); r.setProperty("--accent", c.accent); r.setProperty("--accent-soft", c.accentSoft);
+  r.setProperty("--border", c.border); r.setProperty("--radius", T.radius); r.setProperty("--section", T.sectionSpacing);
+  r.setProperty("--shadow", T.cardShadow); r.setProperty("--dur", T.animation.duration);
+  r.setProperty("--font-h", T.fonts.heading); r.setProperty("--font-b", T.fonts.body);
+  if (T.animation.enabled) document.body.classList.add("anim");
+  if (T.fonts.googleFontsUrl) { var l = document.createElement("link"); l.rel = "stylesheet"; l.href = T.fonts.googleFontsUrl; document.head.appendChild(l); }
+
+  // ---- Helpers
+  var preview = function (id) { return "https://drive.google.com/file/d/" + id + "/preview"; };
+  var view = function (id) { return "https://drive.google.com/file/d/" + id + "/view"; };
+  var thumb = function (id) { return "https://drive.google.com/thumbnail?id=" + id + "&sz=w1200"; };
+  function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text) e.textContent = text; return e; }
+  function link(text, href, cls) { var a = el("a", "btn sm " + (cls || ""), text); a.href = href; a.target = "_blank"; a.rel = "noopener"; return a; }
+  function note(id) { var p = el("p", "note"); p.append("Not loading? In Google Drive set sharing to “Anyone with the link – Viewer”, or "); var a = el("a", "", "open it on Drive"); a.href = view(id); a.target = "_blank"; a.rel = "noopener"; p.append(a, "."); return p; }
+  function iframeFrame(id, title, cls) {
+    var f = el("div", "frame " + (cls || "")); f.appendChild(el("div", "spin", "Loading preview…"));
+    var i = document.createElement("iframe"); i.src = preview(id); i.title = title; i.loading = "lazy"; i.allow = "fullscreen"; i.referrerPolicy = "no-referrer"; f.appendChild(i); return f;
+  }
+  function openLarge(id, title) { $("viewerFrame").src = preview(id); $("viewerFrame").title = title; $("viewer").showModal(); }
+  $("closeViewer").onclick = function () { $("viewer").close(); };
+  $("viewer").addEventListener("close", function () { $("viewerFrame").src = "about:blank"; });
+  function docCard(id, title, desc, cls) {
+    var card = el("article", "card"); card.appendChild(iframeFrame(id, title, cls));
+    var info = el("div", "info"); info.appendChild(el("h3", "", title)); if (desc) info.appendChild(el("p", "", desc));
+    var row = el("div", "row"), b = el("button", "btn sm primary", "Open larger view"); b.onclick = function () { openLarge(id, title); };
+    row.append(b, link("Open original", view(id))); info.append(row, note(id)); card.appendChild(info); return card;
+  }
+
+  // ---- Text
+  document.title = S.seo.title; $("logo").textContent = S.brand; $("foot").textContent = "© " + new Date().getFullYear() + " " + S.name + " · " + S.brand;
+  $("heroTitle").textContent = S.headline; $("heroTag").textContent = S.tagline; $("heroIntro").textContent = S.intro;
+  $("cta1").textContent = S.primaryCta; $("cta2").textContent = S.secondaryCta; $("aboutText").textContent = S.aboutText;
+  S.experience.forEach(function (x) { var li = el("li"); li.append(el("b", "", x.value), el("span", "", x.label)); $("stats").appendChild(li); });
+  $("menuBtn").onclick = function () { var o = $("links").classList.toggle("open"); this.setAttribute("aria-expanded", o); };
+  $("links").onclick = function () { this.classList.remove("open"); $("menuBtn").setAttribute("aria-expanded", false); };
+
+  // ---- Videos (categories render in the order of VIDEO_CATEGORIES; empty ones are skipped)
+  function videoCard(v) {
+    var card = el("article", "card"), f = el("div", "frame"), b = el("button", "poster");
+    b.setAttribute("aria-label", "Play " + v.title);
+    var img = document.createElement("img"); img.src = thumb(v.id); img.alt = ""; img.loading = "lazy"; img.onerror = function () { img.remove(); }; b.append(img, el("span", "play", "▶"));
+    b.onclick = function () {
+      f.innerHTML = ""; f.appendChild(el("div", "spin", "Loading video…"));
+      var i = document.createElement("iframe"); i.src = preview(v.id); i.title = v.title; i.allow = "fullscreen"; i.allowFullscreen = true; i.referrerPolicy = "no-referrer"; f.appendChild(i);
+    };
+    f.appendChild(b); card.appendChild(f);
+    var info = el("div", "info"); info.appendChild(el("h3", "", v.title)); if (v.description) info.appendChild(el("p", "", v.description));
+    var row = el("div", "row"); row.appendChild(link("Open original", view(v.id))); info.append(row, note(v.id)); card.appendChild(info); return card;
+  }
+  window.VIDEO_CATEGORIES.forEach(function (cat) {
+    var list = window.VIDEOS.filter(function (v) { return v.category === cat.key; });
+    if (!list.length) return;
+    var s = el("div", "cat"); s.appendChild(el("h3", "", cat.title)); s.appendChild(el("p", "", cat.blurb));
+    var g = el("div", "grid"); list.forEach(function (v) { g.appendChild(videoCard(v)); }); s.appendChild(g); $("videos").appendChild(s);
+  });
+
+  // ---- Documents
+  var D = window.DOCS;
+  var g1 = el("div", "grid"); g1.style.gridTemplateColumns = "1fr"; g1.appendChild(docCard(D.graphic.id, D.graphic.title, D.graphic.description, "big")); $("graphicBox").appendChild(g1);
+  var a = docCard(D.assignment.id, D.assignment.title, D.assignment.description, "big"); a.querySelector(".info").prepend(el("span", "note", "Creative Assignment")); $("assignmentBox").appendChild(a);
+  window.CERTIFICATES.forEach(function (x) { $("certs").appendChild(docCard(x.id, x.title, [x.issuer, x.date].filter(Boolean).join(" · "), "doc")); });
+  if (D.cv.approvedForPublic) { $("cvBox").appendChild(docCard(D.cv.id, D.cv.title, "", "big")); }
+  else { $("cvBox").appendChild(el("p", "empty", "CV preview is switched off until the owner approves public display (data/documents.js → approvedForPublic).")); }
+
+  // ---- Contact (only filled-in items appear; no fake form)
+  var any = false;
+  if (S.contact.email) { var m = el("a", "btn primary", "Email me"); m.href = "mailto:" + S.contact.email; $("contactBtns").appendChild(m); any = true; }
+  S.contact.links.forEach(function (x) { if (x.url) { $("contactBtns").appendChild(link(x.label, x.url)); any = true; } });
+  if (!any) $("contactNote").textContent = "Contact details are coming soon.";
+})();
+</script>
+</body>
+  </html>
